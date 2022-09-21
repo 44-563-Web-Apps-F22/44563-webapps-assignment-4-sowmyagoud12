@@ -4,11 +4,11 @@
 .scene{
 color:aqua;
 }
-.chorus{
+.CHORUS{
     color:black;
     font-size: 25px;
     font-family: 'Courier New', Courier, monospace;
-    background-color: blanchedalmond;
+    background-color: blueviolet;
 }
 .ELSA{
     color: chocolate;
@@ -72,10 +72,38 @@ color:aqua;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
+.JULIA:hover
+{
+    color: black;
+    background-color:aqua;
+    text-shadow: 5px 5px 3px red;
+    display:inline;
+}
 .LISA{
     color:darkgoldenrod;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
+    
+}
+.ERN{
+    color:cadetblue;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.ERN:hover{
+    color:black;
+    background-color: darkolivegreen;
+    text-shadow:6px 6px 4px greenyellow;
+}
+.RUD{
+    color:lightslategray;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.BAR{
+    color:palevioletred;
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .speech{
     color:black;
@@ -101,4 +129,31 @@ font-size: 20px;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 text-decoration: solid;
 text-decoration-color:mediumslateblue;
+}
+table {border:solid 4px;
+border-collapse:collapse;
+outline: solid 3px tomato;}
+td,th {border:solid 1px;
+text-align: center;}
+tr{background-color: darkgoldenrod;}
+tr:nth-child(even){background-color: cadetblue;}
+ul{
+    list-style-type:none;
+    margin: 0;
+    padding:0;
+    overflow:hidden;
+    background-color: aqua;
+    display: inline;
+}
+li{
+    float:left;
+}
+li a{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover{
+background-color: aliceblue;
 }
